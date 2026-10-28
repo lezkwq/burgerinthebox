@@ -13,7 +13,7 @@ Os horários devem ser consultados no sistema de pedidos. Os materiais fornecido
 
 Todos os arquivos usados ficam em `img/`, com fotografias WebP comprimidas incorporadas em contêineres SVG autossuficientes. As fotos principais dos burgers, o logo e a fachada vieram dos materiais fornecidos para a Burger In The Box. Xis e fritas são imagens de apoio mantidas do modelo, conforme autorizado; a imagem do xis representa a categoria, sem identificação como foto de um produto específico.
 
-As fotos promocionais e as cinco fotos adicionais de burgers e combos foram tratadas com a ferramenta integrada imagegen. Os arquivos receberam conversão e compressão WebP. A fachada usa a foto original com enquadramento no CSS para ocultar o ícone de vídeo do print.
+As fotos promocionais e as cinco fotos adicionais de burgers e combos foram tratadas com a ferramenta integrada imagegen. Os arquivos receberam conversão e compressão WebP. A foto da fachada foi restaurada com imagegen: maior definição, exposição e contraste equilibrados, remoção do ícone de vídeo e preservação da identidade visual. O prompt está em IMAGE_EDITS.md.
 
 Prompts de edição usados:
 
@@ -35,3 +35,7 @@ A vitrine passa a mostrar uma foto real do Fried Chicken no lugar da imagem gen�
 Fotos adicionais: `combo-bacon.svg`, `bacon-nas-maos.svg`, `combo-da-casa.svg`, `burger-cervejinha.svg` e `fried-chicken.svg`. Edições realizadas pela ferramenta imagegen integrada, preservando os produtos e a composição original, seguidas de compressão WebP.
 
 Os prompts completos das cinco novas edições estão em `IMAGE_EDITS.md`.
+
+## Barra de pedido no celular
+
+A barra fixa contém somente Fazer meu pedido. Fica oculta nas duas primeiras alturas de tela e aparece a partir da terceira (rolagem de pelo menos duas vezes a altura da janela). Ao voltar ao topo, ela desaparece. Os dois botões da abertura continuam visíveis. O crédito demonstrativo foi removido do rodapé.
